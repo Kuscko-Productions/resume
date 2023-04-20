@@ -1,1 +1,24 @@
 @import '~bootstrap/scss/bootstrap';
+
+.pagebreak {
+    clear: both;
+    page-break-after: always;
+}
+
+#skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.row {
+    padding-bottom: 1%;
+}
+
+#name {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
