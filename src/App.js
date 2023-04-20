@@ -1,16 +1,26 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAt, faGlobe, faPhone } from '@fortawesome/free-solid-svg-icons';
-import { ListGroup, ListGroupItem, ThemeProvider } from 'react-bootstrap';
+import { ListGroup, ListGroupItem } from 'react-bootstrap';
 import { faGitSquare } from '@fortawesome/free-brands-svg-icons';
 import './App.scss';
+import DocumentMeta from 'react-document-meta';
 
 function App() {
-  document.title = 'Patrick\'s Resume';
+  const meta = {
+    title: 'Patrick\'s Resume',
+    description: 'Patrick Kelly\'s Resume',
+    meta: {
+      charset: 'utf-8',
+      name: {
+        keywords: 'resume, portfolio, patrick kelly, kuscko, software developer, web developer, full stack developer, '+
+        'react, reactjs, react.js, javascript, js, html, css, python, django, sql, mysql, postgresql, postgres, mongodb, '+
+        'mongo, azure, dotnet, .net, .net core, core, c#, csharp, c sharp, c-sharp, asp.net, aspnet, asp.net core, aspnetcore, asp.net mvc, aspnetmvc, mvc, mvc.net'
+      }
+    }
+  }
+  
   return (
-    <ThemeProvider
-      breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']}
-      minBreakpoint="xxs"
-    >
+    <DocumentMeta {...meta}>
       <div className='container'>
         <div id='info'>
           <div className='row'>
@@ -129,8 +139,7 @@ function App() {
           </div>
         </div>
       </div>
-    </ThemeProvider>
-    
+    </DocumentMeta>
   );
 }
 
