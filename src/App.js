@@ -89,7 +89,7 @@ function App() {
           <div className='pagebreak'/>
           <div className='experience-details'>
             <h4>Software Engineer</h4>
-            <h5><a href='https://lostsouls.org/'>Telesmatic Systems LLC</a> / Contract / Port Richey FL  / November 2022 - Present</h5>
+            <h5><a href='https://lostsouls.org/'>Telesmatic Systems LLC</a> / Part-time / Port Richey FL  / November 2022 - Present</h5>
             <ul>
               <li>Collaborated in the full-stack development of authoring software using React Js and Django web frameworks.</li>
               <li>Engineered and implemented intricate data structures utilizing the Django ORM and a MySql database.</li>
