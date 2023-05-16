@@ -58,7 +58,7 @@ function App() {
               <ul variant='flush'>
                 <li><FontAwesomeIcon icon={faPhone} size='lg'/> <a href='tel:+17273644111'>(727) 364-4111</a></li>
                 <li><FontAwesomeIcon icon={faGlobe} size='lg'/> <a href='https://www.google.com/maps/place/Tampa+Palms,+Tampa,+FL/@28.0481853,-82.4365068,12z/data=!4m6!3m5!1s0x88c2b7f72210b7e5:0x61e9582cd056b9b2!8m2!3d28.0976718!4d-82.3985051!16s%2Fm%2F026nm4z'>Tampa Palms, Florida, USA</a></li>
-                <li><FontAwesomeIcon icon={faAt} size='lg'/> <a href='mailto:contact@kuscko.com'>contact@kuscko.com</a></li>
+                <li><FontAwesomeIcon icon={faAt} size='lg'/> <a href='mailto:patrick.kellyse@gmail.com'>patrick.kellyse@gmail.com</a></li>
                 <li><FontAwesomeIcon icon={faAt} size='lg'/> <a href='https://www.linkedin.com/in/kuscko/'>linkedin.com/in/Kuscko</a></li>
                 <li><FontAwesomeIcon icon={faGitSquare} size='lg'/> <a href='https://www.github.com/kuscko'>github.com/Kuscko</a></li>
               </ul>
@@ -92,7 +92,7 @@ function App() {
             <h5><a href='https://lostsouls.org/'>Telesmatic Systems LLC</a> / Contract / Port Richey FL  / November 2022 - Present</h5>
             <ul>
               <li>Collaborated in the full-stack development of authoring software using React Js and Django web frameworks.</li>
-              <li>Engineered and implemented intricate data structures utilizing the Django ORM and a MySql database.</li>
+              <li>Engineered and implemented intricate data structures utilizing the Python-Django ORM and a MySql database.</li>
               <li>Designed and set up continuous integration and delivery (CI/CD) pipelines utilizing GitLab for improved software development workflow.</li>
               <li>Designed and developed a 3D area within the Lost Souls MUD game world, with complex logic written in the LPC programming language.</li>
             </ul>
