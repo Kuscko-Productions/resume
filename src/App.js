@@ -25,6 +25,7 @@ function App() {
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JavaScript</li>
+                    <li>Python</li>
                   </ul>
                 </div>
                 <div className='d-flex justify-content-center'>
@@ -32,10 +33,11 @@ function App() {
                     <li>React</li>
                     <li>Angular</li>
                     <li>Bootstrap</li>
-                    <li>Git</li>
+                    <li>GitLab</li>
                     <li>Visual Studio</li>
                     <li>Visual Studio Code</li>
                     <li>Agile</li>
+                    <li>Django</li>
                   </ul>
                 </div>
                 <div className='d-flex justify-content-end'>
@@ -47,6 +49,7 @@ function App() {
                     <li>Continuous Integration</li>
                     <li>Continuous Delivery</li>
                     <li>Continuous Deployment</li>
+                    <li>DevOps</li>
                   </ul>
                 </div>
               </div>
@@ -75,8 +78,33 @@ function App() {
         <div id='experience'>
           <h3>Experience</h3>
           <div className='experience-details'>
+            <h4>Software Engineer II</h4>
+            <h5><a href='https://www.socom.mil'>USSOCOM</a> / Full Time / June 2023 - present</h5>
+            <ul>
+              <li>Developed a comprehensive road map for a test automation system, utilizing Python and Selenium for test automation.</li>
+              <li>Successfully designed and engineered a test automation system for the CI/CD pipeline (GitLab) using Python and Selenium.</li>
+              <li>Authored and maintains a Content Styling Guide for reference by other developers, demonstrating expertise in CSS and JavaScript.</li>
+              <li>Led the redesign of an application as the subject matter expert in front-end design, utilizing skills in Python, Django, JavaScript, and CSS.</li>
+              <li>Determined the technical requirements and feasibility for integration testing of cross-application tools, utilizing skills in Python and JavaScript.</li>
+              <li>Provided guidance, teaching, and assistance in content styling for fellow developers on a case-by-case basis, leveraging skills in JavaScript and CSS.</li>
+              <li>Actively used GitLab for version control and collaboration in both web development and DevOps, while engaging in teamwork to assist fellow developers in problem-solving.</li>
+              <li>Wrote and planned full test suites and test cases for User Interface (UI), Unit, Integration, and Security scopes across multiple systems, demonstrating proficiency in Python, JavaScript, and Selenium.</li>
+            </ul>
+          </div>
+          <div className='pagebreak'/>
+          <div className='experience-details'>
+            <h4>Software Engineer</h4>
+            <h5><a href='https://lostsouls.org/'>Telesmatic Systems LLC</a> / Part-time / Port Richey FL  / November 2022 - November 2023</h5>
+            <ul>
+              <li>Collaborated in the full-stack development of authoring software using React Js and Django web frameworks.</li>
+              <li>Engineered and implemented intricate data structures utilizing the Python-Django ORM and a MySql database.</li>
+              <li>Designed and set up continuous integration and delivery (CI/CD) pipelines utilizing GitLab for improved software development workflow.</li>
+              <li>Designed and developed a 3D area within the Lost Souls MUD game world, with complex logic written in the LPC programming language.</li>
+            </ul>
+          </div>
+          <div className='experience-details'>
             <h4>Automation Engineer</h4>
-            <h5><a href='https://www.proforma.com'>Proforma</a> / Full Time / Tampa, FL / November 2021 - present</h5>
+            <h5><a href='https://www.proforma.com'>Proforma</a> / Full Time / Tampa, FL / November 2021 - June 2023</h5>
             <ul>
               <li>Prepared and maintained documentation for written test cases to ensure comprehensive test coverage and effective communication within the team.</li>
               <li>Spearheaded the implementation of a new real-time test reporting system, resulting in increased productivity and faster issue resolution.</li>
@@ -84,17 +112,6 @@ function App() {
               <li>Developed and maintained automated tests using C# and Selenium to ensure consistent and efficient testing.</li>
               <li>Mentored and provided technical guidance to junior developers to improve overall team performance.</li>
               <li>Created an Automation Framework using C#, MSTest, and other iterations with NUnit and XUnit packages.</li>
-            </ul>
-          </div>
-          <div className='pagebreak'/>
-          <div className='experience-details'>
-            <h4>Software Engineer</h4>
-            <h5><a href='https://lostsouls.org/'>Telesmatic Systems LLC</a> / Part-time / Port Richey FL  / November 2022 - Present</h5>
-            <ul>
-              <li>Collaborated in the full-stack development of authoring software using React Js and Django web frameworks.</li>
-              <li>Engineered and implemented intricate data structures utilizing the Python-Django ORM and a MySql database.</li>
-              <li>Designed and set up continuous integration and delivery (CI/CD) pipelines utilizing GitLab for improved software development workflow.</li>
-              <li>Designed and developed a 3D area within the Lost Souls MUD game world, with complex logic written in the LPC programming language.</li>
             </ul>
           </div>
           <div className='experience-details'>
